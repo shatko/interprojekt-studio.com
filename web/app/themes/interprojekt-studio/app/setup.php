@@ -122,3 +122,16 @@ add_action('widgets_init', function () {
         'id' => 'sidebar-footer',
     ] + $config);
 });
+
+/**
+ * Add favicon to wp_head action
+ */
+add_action('wp_head', function () {
+    // Add favicon and web app meta tags
+    echo '<link rel="icon" type="image/png" href="/app/themes/interprojekt-studio/favicon/favicon-96x96.png" sizes="96x96" />';
+    echo '<link rel="icon" type="image/svg+xml" href="/app/themes/interprojekt-studio/favicon/favicon.svg" />';
+    echo '<link rel="shortcut icon" href="/app/themes/interprojekt-studio/favicon/favicon.ico" />';
+    echo '<link rel="apple-touch-icon" sizes="180x180" href="/app/themes/interprojekt-studio/favicon/apple-touch-icon.png" />';
+    echo '<meta name="apple-mobile-web-app-title" content="interprojekt-studio" />';
+    echo '<link rel="manifest" href="/app/themes/interprojekt-studio/favicon/site.webmanifest" />';
+});
