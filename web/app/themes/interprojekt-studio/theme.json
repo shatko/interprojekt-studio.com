@@ -1287,6 +1287,36 @@
           "fontFamily": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
           "name": "Ui-monospace",
           "slug": "mono"
+        },
+        {
+          "fontFamily": "Montserrat-Light",
+          "name": "Montserrat-Light",
+          "slug": "montLight"
+        },
+        {
+          "fontFamily": "Montserrat-Regular",
+          "name": "Montserrat-Regular",
+          "slug": "mont"
+        },
+        {
+          "fontFamily": "Montserrat-Bold",
+          "name": "Montserrat-Bold",
+          "slug": "montBold"
+        },
+        {
+          "fontFamily": "Montserrat-Light-Italic",
+          "name": "Montserrat-Light-Italic",
+          "slug": "montLightItalic"
+        },
+        {
+          "fontFamily": "Montserrat-Regular-Italic",
+          "name": "Montserrat-Regular-Italic",
+          "slug": "montItalic"
+        },
+        {
+          "fontFamily": "Montserrat-Bold-Italic",
+          "name": "Montserrat-Bold-Italic",
+          "slug": "montBoldItalic"
         }
       ],
       "fontSizes": [

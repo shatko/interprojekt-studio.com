@@ -4,6 +4,14 @@ const config = {
   theme: {
     extend: {
       colors: {}, // Extend Tailwind's default colors
+      fontFamily: {
+        montLight: ["Montserrat-Light"],
+        mont: ["Montserrat-Regular"],
+        montBold: ["Montserrat-Bold"],
+        montLightItalic: ["Montserrat-Light-Italic"],
+        montItalic: ["Montserrat-Regular-Italic"],
+        montBoldItalic: ["Montserrat-Bold-Italic"],
+      },
     },
   },
   plugins: [],
