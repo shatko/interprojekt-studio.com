@@ -3,7 +3,7 @@ body:not(.wp-admin) {
   h2,
   h3,
   h4 {
-    @apply uppercase font-montBold;
+    @apply uppercase font-montItalic;
   }
 }
 
