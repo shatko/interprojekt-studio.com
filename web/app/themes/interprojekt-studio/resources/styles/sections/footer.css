@@ -18,6 +18,14 @@
 
     .footer-cell {
       @apply text-sm p-1 border-2 border-black;
+
+      a {
+        @apply hover:border-b-2;
+      }
+
+      .active {
+        @apply font-montBold;
+      }
     }
 
     .footer-cell-center {
