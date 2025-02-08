@@ -1,0 +1,27 @@
+.content-info {
+  @apply flex;
+
+  .footer-table {
+    @apply ml-auto;
+
+    .footer-logo-cell {
+      @apply p-2 border-2 border-black text-center;
+    }
+
+    .footer-logo {
+      @apply w-64 inline;
+    }
+
+    .footer-address {
+      @apply text-xs;
+    }
+
+    .footer-cell {
+      @apply text-sm p-1 border-2 border-black;
+    }
+
+    .footer-cell-center {
+      @apply text-sm p-1 border-2 border-black text-center;
+    }
+  }
+}
