@@ -25,7 +25,7 @@
       </tr>
       <tr>
         <td class="text-sm p-1 border-[2px] border-solid border-black" rowspan="1">Kontakt</td>
-        <td class="text-sm text-center p-1 border-[2px] border-solid border-black" rowspan="1"><h1>{!! $title !!}</h1></td>
+        <td class="text-sm text-center p-1 border-[2px] border-solid border-black" rowspan="1"><h4>{!! $title !!}</h4></td>
       </tr>
     </tbody>
   </table>
