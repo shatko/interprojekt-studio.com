@@ -4,3 +4,5 @@
 
 @import './common/fonts';
 @import './common/typography';
+
+@import './footer/footer';

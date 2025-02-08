@@ -23,6 +23,7 @@ h4 {
   @apply text-xl;
 }
 
-p {
+p,
+td {
   @apply font-mont;
 }
