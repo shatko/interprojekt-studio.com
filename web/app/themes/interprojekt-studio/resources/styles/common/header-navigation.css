@@ -1,0 +1,19 @@
+.nav-primary {
+  .nav {
+    @apply flex mt-1 ml-4;
+
+    li {
+      @apply ml-2;
+
+      a {
+        @apply hover:border-b-2;
+      }
+    }
+
+    .current-menu-item {
+      a {
+        @apply border-b-2 border-black;
+      }
+    }
+  }
+}
