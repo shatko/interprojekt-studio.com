@@ -4,6 +4,6 @@
 
 @import './common/fonts';
 @import './common/typography';
-@import './common/header-navigation';
 
-@import './footer/footer';
+@import './sections/header-navigation';
+@import './sections/footer';
